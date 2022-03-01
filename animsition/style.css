@@ -56,10 +56,11 @@ body{
   border: 2px solid black
 }
 
-.about-me .first{
+.first{
+  font-family: monospace;
   font-size: 32px;
-  color: #ccd6f6;
-  font-weight: 700;
+  color: #ccd6f6 !important;
+  font-weight: 500;
 }
 .about-me .second{
   font-size: 18px;
@@ -81,16 +82,11 @@ body{
   margin-left: -1em;
 }
 .about-me .w-25{
-
-
-
   -moz-filter: opacity(0.8) drop-shadow(0 0 0 #64ffda);
 	-webkit-filter: opacity(0.5) drop-shadow(0 0 0 #64ffda);
 	filter: opacity(0.4) drop-shadow(0 0 0 #64ffda);
 }
 .about-me .w-25:hover{
-
-
 
   -moz-filter: opacity(0.8) drop-shadow(0 0 0 #64ffda);
 	-webkit-filter: opacity(0.5) drop-shadow(0 0 0 #64ffda);
@@ -112,8 +108,94 @@ body{
         border-radius: 10px;
     }
 .background {
+  width:80%
 }
 .background .w-75{
   overflow-y: scroll;
     height:200px;
+}
+.w-65{
+  width:65%;
+}
+.background p{
+  color: #828caa;
+}
+.background span{
+  font-family: monospace;
+  color: #828caa;
+  font-size: 14px;
+}
+.scrollspy-example{
+  margin-left: 20px;
+}
+.background h5{
+  color: #ccd6f6;
+}
+.background h5 span{
+  color:#64ffda;
+  font-size: 20px;
+}
+.list-group-item{
+  background-color: transparent !important;
+  font-family: monospace !important;
+  color: #828caa !important;
+  border: 0px;
+  border-left: 1px solid #233554 !important;
+}
+
+.list-group-item:hover{
+  background-color: #142444!important;
+  color:#64ffda !important;
+  border-left: 1px solid #64ffda !important;
+}
+.w-75::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+.first span{
+  font-family: monospace;
+  font-size:32px;
+  color:#64ffda;
+
+}
+
+.project-image:hover{
+
+  -moz-filter: opacity(0.8) drop-shadow(0 0 0 #64ffda);
+	-webkit-filter: opacity(0.5) drop-shadow(0 0 0 #64ffda);
+	filter: opacity(1) drop-shadow(0 0 0 #64ffda);
+}
+.project-image {
+-moz-filter: opacity(0.8) drop-shadow(0 0 0 #64ffda);
+	-webkit-filter: opacity(0.5) drop-shadow(0 0 0 #64ffda);
+	filter: opacity(0.4) drop-shadow(0 0 0 #64ffda);
+
+}
+.project-image  img:hover{
+        transform: scale(1.15);
+        transition: transform s linear;
+
+    }
+.project-details ul li{
+  margin-left:20px;
+  list-style: none;
+  font-family: monospace;
+  font-size:12px;
+
+  color: #ccd6f6 !important;
+}
+
+.project-details .description {
+  background-color: #142444!important;
+  color: #8892b0;
+  box-shadow: 0 10px 30px -15px black;
+  border-radius: 5px;
+  position: relative;
+  right: 50px;;
+}
+.project-details {
+  z-index: 2
+}
+.project-details .title{
+  color: #ccd6f6;
+  font-size:24px
 }
