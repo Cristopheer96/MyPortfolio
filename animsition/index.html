@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="icon" href="./assets/memoji/Icon 2.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cristopher</title>
+  <title>Cristopher Huaroc</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <script src="https://kit.fontawesome.com/26ac38895c.js" crossorigin="anonymous"></script>  <link
@@ -53,21 +53,21 @@
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body text-center">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <ul class="navbar-nav justify-content-end align-items-center flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About</a>
+                <a class="nav-link active" aria-current="page" href="#about-me">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Background</a>
+                <a class="nav-link" href="#background">Background</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
               <li class="nav-item link-resume">
-                <a class="nav-link" href="#">Resume</a>
+                <a class="nav-link" href="./CV-Cristopher Huaroc.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
               </li>
 
 
@@ -78,15 +78,15 @@
       </div>
     </nav>
     <div class="container-fluid row">
-      <div class="col-1 social-side">
+      <div class=" d-none d-md-block col-md-1 social-side">
         <ul>
-          <li><a href=""><i class="fa-brands fa-github"></i></a></li>
-          <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+          <li><a href="https://github.com/Cristopheer96"><i class="fa-brands fa-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/cristopher-huaroc-olivera-38567bb2/"><i class="fa-brands fa-linkedin"></i></a></li>
           <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-          <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a href="https://twitter.com/CriCris96"><i class="fa-brands fa-twitter"></i></a></li>
         </ul>
       </div>
-      <div class="col-10">
+      <div class="col-12 col-md-10">
         <div class="about d-flex mb-5 pb-5">
           <div class="w-75">
             <p class="first">
@@ -107,8 +107,8 @@
             <img src="./assets/memoji//ImTech.png" class="w-" alt="">
           </div>
         </div>
-        <div class="about-me d-flex container justify-content-center pt-5 mb-5">
-          <div class="w-65">
+        <div id="about-me" class="about-me d-flex row container justify-content-center pt-5 mb-5">
+          <div class="col-12 col-md-8">
             <p class="first">
              <span>01.</span>   About me
             </p>
@@ -142,11 +142,11 @@
 
             </div>
           </div>
-          <div class="w-25">
+          <div class="me col-12 col-md-4 d-flex justify-content-center">
             <img src="./assets/memoji/Me.jpeg" style="width:250px">
           </div>
         </div>
-        <div class="background container pt-5 mt-5 pb-5 mb-5 ">
+        <div id="background" class="background container pt-5 mt-5 pb-5 mb-5 ">
           <p class="first ">
             <span>02.</span>  Where I’ve Worked
           </p>
@@ -184,7 +184,7 @@
             </div>
           </div>
         </div>
-        <div class="projects mt-5 mb-5">
+        <div id="projects" class="projects mt-5 mb-5 pb-5">
           <p class="first ">
             <span>03.</span> Projects - Some Things I’ve Built
           </p>
@@ -236,15 +236,34 @@
             </div>
           </div>
         </div>
-        <div class="contact mt-5 mb-4">
+        <div id="contact" class="contact mt-5 pt-5 mb-4 container text-center justify-content-center">
           <p class="first">
             <span>04.</span>
             Contact
           </p>
+          <div class="row">
+            <div class="contact-description col-md-6 mt-3 pt-4">
+              <p>
+                I am currently looking for new opportunities so my mailbox is open. Whether you have a question about my projects or just
+                want to say hi, I'll do my best to answer you!
+              </p>
+              <button>
+                <a class="nav-link" href="mailto:cristopheer96@gmail.com" rel="noopener noreferrer" target="_blank">Let's talk</a>
+              </button>
+            </div>
+            <div class="col-md-6 mt-3">
+              <img src="./assets/memoji/Bye.png" alt="">
+            </div>
+          </div>
         </div>
+        <footer>
+          <p class="text-center">Built by Cristopher Huaroc</p>
+        </footer>
 
       </div>
-      <div class="col-1">3</div>
+      <div class="d-none d-md-block col-md-1 mail-side">
+        <a class="link-mail" href="mailto:cristopheer96@gmail.com" rel="noopener noreferrer" target="_blank">cristopheer96@gmail.com</a>
+      </div>
 
     </div>
 
