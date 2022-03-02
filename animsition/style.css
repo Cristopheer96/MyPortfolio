@@ -190,7 +190,7 @@ body{
 }
 .project-image  img:hover{
         transform: scale(1.15);
-        transition: transform  linear;
+        transition: transform s  linear;
 
     }
 .project-details ul li{
