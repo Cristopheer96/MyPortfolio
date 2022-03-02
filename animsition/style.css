@@ -247,6 +247,11 @@ body{
   color:#a8b2d1 !important;
   font-size: 20px;
   margin-top: 16px;
+  transition-property: transform;
+  transition-duration: .55s;
+  transition-delay: .1s;
+  transition-timing-function: linear;
+  border-radius: 10px;
 }
 .social-side li i{
   color:#a8b2d1 !important;
@@ -289,4 +294,9 @@ footer p{
   font-family: monospace;
   color:#a8b2d1 !important;
 
+}
+.social-side li:hover{
+  color:#64ffda  ;
+  transform: scale(1.1);
+  transition: transform 0.5s linear;
 }
